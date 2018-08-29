@@ -1,0 +1,48 @@
+body{
+    font-family: roboto;
+    font-size:13px;
+    font-weight: 300;
+}
+.main-container{
+    width:100%;
+    display: flex;
+}
+section{
+    margin-bottom: 120px;
+   
+
+}
+.item-image{
+    width: 80%;
+}
+  .item-image img{
+      width: 100%;
+      margin-left: 10%;
+  }
+.select{
+    
+   color:rgb(118, 120, 126);
+    
+}
+.select select{
+ height:35px;
+ width:100%;
+ 
+ background:none;
+ border-left:0px;
+ border-right:0px; 
+ 
+ 
+    }
+/*.submit-button{
+    width:100%;
+    background-color: rgb(33, 123, 167);
+    text-align:center;
+    position: fixed;
+    bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 60px;
+    
+}
+*/
