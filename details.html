@@ -7,60 +7,90 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="details.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="ecommerce.css" media="screen">
 </head>
 
 <body>
     <div class="main-container">
-
-        <section class="image-section">
-            <div class="item-image">
-                <img src="images/item1.jpg">
+        <header>
+            <div class="logo-bar">
+                <div class="menu-button" id="back-button">
+                    <img src="images/back-button.jpg">
+                </div>
+                <div class="heading">
+                    <b>S H O P</b>
+                </div>
+                <div class="cart">
+                    <img src="images/cart.jpg">
+                </div>
             </div>
-        </section>
-        <section class="item-details">
-            <form action="bill.html">
-                <div class="select">Size
-                    <select name="size">
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                    </select>
-
-                </div>
-
-                <div class="select">Quantity
-                    <select name="quantity" value="Quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-
-                </div>
-
+            <nav class="menu-bar">
                 <div>
-                    <input type="submit" value="ADD TO CART" class="submit-button">
+                    <a href="#">Men's Outerwear</a>
+                </div>
+                <div>
+                    <a href="#">Ladies Outerwear</a>
+                </div>
+                <div>
+                    <a href="#">Men's T-Shirts</a>
+                </div>
+                <div>
+                    <a href="#">Ladies T-Shirts</a>
                 </div>
 
-            </form>
-            <div class="item-description">
-                <h3>Description</h3>
-                <p>Ultra soft. Ultra cozy. Our popular flex fleece hoodie now available in speckled green. </p>
-            </div>
-            <div>
-                <h3>Features:</h3>
-                <ul>
-                    <li>50% cotton / 50% polyester.</li>
-                    <li>Made in the USA.</li>
-                    <li>Full-zip. </li>
-                    <li>Available in green with specks of blue and the white Google logo embroidered at left bicep.</li>
-                </ul>
-            </div>
-        </section>
-       
+            </nav>
+        </header>
+        <div class="inner-container">
+
+            <section class="image-section">
+                <div class="item-image">
+                    <img src="images/item1.jpg">
+                </div>
+            </section>
+            <section class="item-details">
+                <form action="bill.html">
+                    <div class="select">Size
+                        <select name="size">
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+
+                    </div>
+
+                    <div class="select">Quantity
+                        <select name="quantity" value="Quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                    </div>
+
+                    <div class="item-description">
+                        <h3>Description</h3>
+                        <p>Ultra soft. Ultra cozy. Our popular flex fleece hoodie now available in speckled green. </p>
+                    </div>
+                    <div>
+                        <h3>Features:</h3>
+                        <ul>
+                            <li>50% cotton / 50% polyester.</li>
+                            <li>Made in the USA.</li>
+                            <li>Full-zip. </li>
+                            <li>Available in green with specks of blue and the white Google logo embroidered at left bicep.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <input type="submit" value="ADD TO CART" class="submit-button">
+                    </div>
+                </form>
+            </section>
+
+        </div>
     </div>
 </body>
 
