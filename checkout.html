@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>checkout-page</title>
+
+    <link rel="stylesheet" type="text/css" href="checkout.css" media="screen">
+</head>
+
+<body>
+    <div class="main-container">
+
+
+
+        <section class="form-section">
+            <section class="details">
+                <div class="account-information">
+                    <span>Account Information</span>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+
+                <div class="shipping-address">
+                    <span>Shipping Address</span>
+                    <input type="text-area" name="address" placeholder="Address">
+                    <input type="text" name="city" placeholder="City">
+                    <input type="text" name="state" placeholder="State/Province">
+                    <input type="text" name="pincode" placeholder="Zip/Postal Code">
+                    <div>
+                        <span>Billing Address</span>
+                        <input type="checkbox" name="billing_address" id="checkbox">
+
+                    </div>
+                </div>
+            </section>
+            <section class="payment-details">
+                <span>Payment Method</span>
+                <input type="text" name="state" placeholder="Zip/Postal Code">
+                <input type="text" name="cardholder" placeholder="Cardholder Name">
+                <input type="text" name="card_number" placeholder="Card Number"> Expiry
+                <section class="card-details">
+                    <div>
+                        <select name="expiry">
+                            <option value "1">Jan</option>
+                            <option value "2">Feb</option>
+                            <option value "3">Mar</option>
+                            <option value "4">Apr </option>
+                            <option value "5">May</option>
+                            <option value "6">June</option>
+                            <option value "7">July </option>
+                            <option value "8">Aug </option>
+                            <option value "9"> Sep</option>
+                            <option value "10">Oct </option>
+                            <option value "11">Nov</option>
+                            <option value "12">Dec</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select name="#">
+                            <option value "1">2018</option>
+                            <option value "2">2017</option>
+                            <option value "3">2016</option>
+                            <option value "4">2015</option>
+                            <option value "5">2014</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" name="cvv" placeholder="CVV">
+                    </div>
+                </section>
+                <div class="order-summary">
+
+                    <span>Order Summary</span>
+                    <div class="order-item-list">
+                        <span class="item-name">Abjskhdkuihjjk</span>
+                        <span class="item-price" style="float:right;">20.45</span>
+                    </div>
+                    <div class="order-total-price">
+                        <span class="total">Total</span>
+                        <span class="total-price" style="float:right;">20.45</span>
+                    </div>
+
+                </div>
+                <div>
+                    <input type="button" id="button" value="PLACE ORDER ">
+                </div>
+            </section>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>

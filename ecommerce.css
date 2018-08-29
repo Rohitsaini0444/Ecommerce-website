@@ -2,10 +2,7 @@
 {  width: 100%;
     
   }
-    header {
-  /*  display:inline; */
-   
-}
+
 .logo-bar{
     display:flex;
     justify-content: space-between;
@@ -42,6 +39,9 @@
     justify-content: space-around;
     font-size: 15px;
     color:rgb(58, 56, 56);
+}
+.menu-bar a:hover{
+border-bottom: solid black 2px;
 }
 .banner
 {   display: flex;
