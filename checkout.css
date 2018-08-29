@@ -62,3 +62,15 @@ border-bottom:solid  black 2px;
     margin: 5%;
     background: none;
 }
+.menu-bar{
+    display: none;
+}
+.page-heading{
+    text-align: center;
+    margin: 50px;
+   
+}
+.page-heading span{
+  margin: 10px;
+  width: 100%;
+}

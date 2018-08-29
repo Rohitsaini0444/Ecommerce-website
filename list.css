@@ -1,0 +1,43 @@
+.outer-container{
+    width:90%;
+display: flex;
+flex-flow: column;
+justify-content: center;
+}
+.main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 3%;
+margin-left: 5%;
+grid-gap: 10%;
+font-size: 13px;
+
+
+}
+
+
+
+item-image{
+    width:100%;
+}
+.item-image img{
+    width:100%;
+} 
+.item-detail{
+width: 100%;
+text-align: center;
+
+}
+.cloth-category{
+    text-align: center;
+    margin: 50px;
+
+}
+
+@media screen and (max-width:800px)
+{
+ .main-container{
+     grid-template-columns: 1fr 1fr;
+ }
+}
