@@ -1,10 +1,11 @@
 header{
     width :100%;
+    align-self: center;
 }
 .logo-bar{
     display:flex;
     justify-content: space-between;
-   
+    text-align: center;
 }
 
 .menu-button img{
@@ -19,8 +20,9 @@ header{
 .heading{
     text-align: center;
     padding-top: 1%;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
 
 .cart img{
