@@ -55,6 +55,7 @@ margin-bottom: 10px;
 }
 .card-details div{
    width:100%;
+   margin: 3px;
 }
 select{
     width:100%;
@@ -74,6 +75,7 @@ select:hover{
    width:100%;
    border:0px;
    border-bottom:solid  rgb(192, 189, 185) 1px;
+   border-bottom-width: 90%; 
    height:70px;
    padding-bottom: 0px;
    outline: none;
@@ -96,6 +98,7 @@ border-bottom:solid  black 2px;
 
 #button{
     border: solid black 2px;
+    
     width:150px;
     height:35px;
     margin: 5%;
