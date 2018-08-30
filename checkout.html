@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>checkout-page</title>
-    <link rel="stylesheet" type="text/css" href="ecommerce.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="header_footer.css" media="screen">
     <link rel="stylesheet" type="text/css" href="checkout.css" media="screen">
 </head>
 
@@ -17,7 +17,7 @@
             <header>
                     <div class="logo-bar">
                         <div class="menu-button" id="back-button">
-                            <img src="images/back-button.jpg">
+                            <img src="images/menu.png">
                         </div>
                         <div class="heading">
                             <b>S H O P</b>
@@ -43,37 +43,46 @@
                     </nav>
                 </header>
                 <section class="page-heading">
-                   <p>  <span> <b>Checkout</b></span>
-                     <br>
-<span>is a demo app - form data will not be sent</span> </p>
+                   <h3> Checkout</h3> 
+                   
+<div style="font-size:12px; color:rgb(91, 88, 88); ">shop a demo app - form data will not be sent</div> 
                 </section>
 
         <section class="form-section">
             <section class="details">
                 <div class="account-information">
-                    <span>Account Information</span>
+                    <h3>Account Information</h3>
                     <input type="email" name="email" placeholder="Email">
                     <input type="text" placeholder="Phone Number">
                 </div>
 
                 <div class="shipping-address">
-                    <span>Shipping Address</span>
+                    <h3>Shipping Address</h3>
                     <input type="text-area" name="address" placeholder="Address">
                     <input type="text" name="city" placeholder="City">
                     <input type="text" name="state" placeholder="State/Province">
                     <input type="text" name="pincode" placeholder="Zip/Postal Code">
                     <div>
-                        <span>Billing Address</span>
+                        <select name="expiry">
+                            <option value "1">US</option>
+                            <option value "2">India</option>
+                           
+                        </select>
+                    </div>
+                   
+                    <div class="billing-address"> 
+                        <h3>Billing Address</h3>
                         <input type="checkbox" name="billing_address" id="checkbox">
+                       <p> Use different billing address</p>
 
                     </div>
                 </div>
             </section>
             <section class="payment-details">
-                <span>Payment Method</span>
-                <input type="text" name="state" placeholder="Zip/Postal Code">
+           <h3>Payment Method</h3>
+              
                 <input type="text" name="cardholder" placeholder="Cardholder Name">
-                <input type="text" name="card_number" placeholder="Card Number"> Expiry
+                <input type="text" name="card_number" placeholder="Card Number"> <div class="expiry">Expiry</div>
                 <section class="card-details">
                     <div>
                         <select name="expiry">
@@ -106,13 +115,13 @@
                 </section>
                 <div class="order-summary">
 
-                    <span>Order Summary</span>
+                    <h3>Order Summary</h3>
                     <div class="order-item-list">
-                        <span class="item-name">Abjskhdkuihjjk</span>
+                        <span class="item-name">Ali</span>
                         <span class="item-price" style="float:right;">20.45</span>
                     </div>
                     <div class="order-total-price">
-                        <span class="total">Total</span>
+                        <span class="total">Total:</span>
                         <span class="total-price" style="float:right;">20.45</span>
                     </div>
 
@@ -122,7 +131,11 @@
                 </div>
             </section>
         </section>
-
+        <footer >
+            <span class="made-by" ><a href="#">Made by Polymer</a><br></span>
+            <span class="demo"> DEMO ONLY</span>
+        </footer>
+       
 
     </div>
 

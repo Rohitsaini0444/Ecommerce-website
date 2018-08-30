@@ -1,3 +1,10 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+
 .cart-section{
     width: 100%;
     display:flex;
@@ -15,7 +22,7 @@ text-align: center;
 margin: 50px;
 }
 .item-image{
-    width: 10%;
+    width: 40px;
 }
 
 .item-image img{
@@ -48,4 +55,7 @@ width:300px;
 }
   span{
     padding-top: 15px;
+}
+.menu-bar{
+    display: none;
 }
