@@ -1,155 +1,157 @@
-
- body {  font-family: 'Roboto', 'Noto', sans-serif;
+body {
+    font-family: 'Roboto', 'Noto', sans-serif;
     font-size: 13px;
     line-height: 1.5;
 }
-.main-container{
-  
+
+.page-heading {
+    width: 97%;
 }
-.form-section{
-    display:flex;
+
+.form-section {
+    display: flex;
     width: 100%;
-    flex-flow:wrap;
+    flex-flow: wrap;
     justify-content: space-around;
-  
 }
-.details{
-    width:40%;
-    margin-bottom: 20px;
-  
-}
-.payment-details{
-    width:40%;
-   
-}
-.account-information{
+
+.details {
+    width: 40%;
     margin-bottom: 20px;
 }
-.shipping-address{
-margin-top:10px;
-margin-bottom: 10px;
+
+.payment-details {
+    width: 40%;
 }
-.payment-method{
-    margin-top:10px;
-    margin-bottom:10px;
+
+.account-information {
+    margin-bottom: 20px;
 }
-.order-summary{
-    margin-top:20px;
-    margin-bottom: 20px;
-    }
-   .billing-address{
-    margin-top:20px;
-    margin-bottom: 20px;
-   }
-   .order-item-list{
+
+.shipping-address {
     margin-top: 10px;
     margin-bottom: 10px;
-   }
-   .expiry{
-       margin-top:20px;
-   }
+}
 
-.card-details{
-    display:flex;
-  
+.payment-method {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.card-details div{
-   width:100%;
-   margin: 3px;
+
+.order-summary {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-select{
-    width:100%;
-   border: none;
+
+.billing-address {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order-item-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expiry {
+    margin-top: 20px;
+}
+
+.card-details {
+    display: flex;
+}
+
+.card-details div {
+    width: 100%;
+    margin: 3px;
+}
+
+select {
+    width: 100%;
+    border: none;
     background: none;
-    border-bottom:solid  rgb(192, 189, 185) 1px;
-    height:72px;
+    border-bottom: solid rgb(192, 189, 185) 1px;
+    height: 72px;
     outline: none;
 }
-select:hover{
-   
-    border-bottom:solid  black 2px;
 
+select:hover {
+    border-bottom: solid black 2px;
 }
 
-.form-section input{
-   width:100%;
-   border:0px;
-   border-bottom:solid  rgb(192, 189, 185) 1px;
-   border-bottom-width: 90%; 
-   height:70px;
-   padding-bottom: 0px;
-   outline: none;
+.form-section input {
+    width: 100%;
+    border: 0px;
+    border-bottom: solid rgb(192, 189, 185) 1px;
+    border-bottom-width: 90%;
+    height: 70px;
+    padding-bottom: 0px;
+    outline: none;
+}
 
-} 
-#checkbox{
-    width:5%;
-    height:15px;
-    border:1px;
-    border-color:solid black 1px;
+#checkbox {
+    width: 5%;
+    height: 15px;
+    border: 1px;
+    border-color: solid black 1px;
     background: none;
-float:left;
+    float: left;
 }
 
-input:hover{
-    outline:none;
-border-bottom:solid  black 2px;
-
+input:hover {
+    outline: none;
+    border-bottom: solid black 2px;
 }
 
-#button{
+#button {
     border: solid black 2px;
-    
-    width:150px;
-    height:35px;
+    width: 150px;
+    height: 35px;
     margin: 5%;
     background: none;
 }
-.menu-bar{
+
+.menu-bar {
     display: none;
 }
-.page-heading{
+
+.page-heading {
     text-align: center;
-  margin-bottom: 3%;
-  margin-top:3%; 
-   
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
-.page-heading h3{
+
+.page-heading h3 {
     font-weight: 300;
     margin-bottom: 10px;
     font-size: 18px;
     text-align: center;
 }
 
-
-@media screen and (max-width:800px)
-{    .inner-container{
-    flex-direction:column;
-}
-   
-.details{
-    width:100%;
-    margin-bottom: 20px;
-  
-}
-.payment-details{
-    width:100%;
-   
-}
-.order-summary{margin-bottom: 90px;
-}
- #button{
-    width:100%;
-    height: 70px;
-    background-color: rgb(33, 123, 167);
-    position: fixed;
-    bottom: 0%;
-    border:none;
-    margin :0px;
-    
-}
-.menu-button img{
-    display:initial;
-
-}
-  
+@media screen and (max-width:800px) {
+    .inner-container {
+        flex-direction: column;
+    }
+    .details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .payment-details {
+        width: 100%;
+    }
+    .order-summary {
+        margin-bottom: 90px;
+    }
+    #button {
+        width: 100%;
+        height: 70px;
+        background-color: rgb(33, 123, 167);
+        position: fixed;
+        bottom: 0%;
+        border: none;
+        margin: 0px;
+    }
+    .menu-button img {
+        display: initial;
+    }
 }

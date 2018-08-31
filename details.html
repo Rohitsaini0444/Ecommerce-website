@@ -15,7 +15,8 @@
         <header>
             <div class="logo-bar">
                 <div class="menu-button" id="back-button">
-                    <img src="images/back-button.jpg">
+                    <a href="list.html">
+                        <img src="images/back-button.jpg"> </a>
                 </div>
                 <div class="heading">
                     <a href="index.html">
@@ -44,6 +45,7 @@
 
             </nav>
         </header>
+
         <div class="inner-container">
 
             <section class="image-section">
@@ -52,8 +54,13 @@
                 </div>
             </section>
             <section class="item-details">
+                <div class="item-name">
+                    <h3>Anvil L/S Crew Neck - Grey</h3>
+                    <p class="price-tag"> $160 </p>
+                </div>
                 <form action="bill.html">
-                    <div class="select">Size
+                    <div class="select">
+                        <lable>Size</lable>
                         <select name="size">
                             <option value="XS">XS</option>
                             <option value="S">S</option>
@@ -64,7 +71,8 @@
 
                     </div>
 
-                    <div class="select">Quantity
+                    <div class="select">
+                        <lable>Quantity</lable>
                         <select name="quantity" value="Quantity">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -79,9 +87,10 @@
                         <h3>Description</h3>
                         <p>Ultra soft. Ultra cozy. Our popular flex fleece hoodie now available in speckled green. </p>
                     </div>
-                    <div>
-                        <h3>Features:</h3>
+                    <div class="features">
+                        <p> Features:</p>
                         <ul>
+
                             <li>50% cotton / 50% polyester.</li>
                             <li>Made in the USA.</li>
                             <li>Full-zip. </li>
@@ -89,21 +98,23 @@
                         </ul>
                     </div>
                     <div>
-                     <a href="cart.html">  <input type="submit" value="ADD TO CART" class="submit-button"></a> 
+                        <a href="cart.html">
+                            <input type="submit" class="submit-button"> </a>
                     </div>
-                </form>
-            </section>
-
         </div>
+        </form>
+        </section>
+
+    </div>
 
 
-        <footer>
-            <span class="made-by">
-                <a href="#">Made by Polymer</a>
-                <br>
-            </span>
-            <span class="demo"> DEMO ONLY</span>
-        </footer>
+    <footer>
+        <span class="made-by">
+            <a href="#">Made by Polymer</a>
+            <br>
+        </span>
+        <span class="demo"> DEMO ONLY</span>
+    </footer>
 
     </div>
 </body>

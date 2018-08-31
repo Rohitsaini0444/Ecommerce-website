@@ -1,64 +1,76 @@
-.inner-container{
+.inner-container {
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
 }
 
-.main-container{
+.main-container {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-grid-gap: 10%;
-font-size: 13px;
-
-
+    grid-gap: 10%;
+    grid-row-gap: 30px;
+    font-size: 13px;
 }
-.banner-image img{
-    width:100%;
-}
-.cloth-category h3{
-   font-weight: 500; 
-   margin: 0px;
-   font-family: roboto;
-   font-size: 15px;
 
+.banner-image img {
+    width: 100%;
 }
-.cloth-category p{
-    font-weight: 500; 
+
+.cloth-category h3 {
+    font-weight: 500;
+    margin: 0px;
+    font-family: roboto;
+    font-size: 15px;
+}
+
+.cloth-category p {
+    font-weight: 500;
     margin: 0px;
     color: rgb(137, 139, 142);
     font-size: 12px;
- 
- }
-
-
-item-image{
-    width:100%;
 }
-.item-image img{
-    width:100%;
-} 
-.item-detail{
-width: 100%;
-text-align: center;
 
+.item-image {
+    width: 100%;
 }
-.cloth-category{
+
+.item-image img {
+    width: 100%;
+}
+
+.item-detail {
+    width: 100%;
+    text-align: center;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #202020;
+    font-family: roboto;
+    font-weight: 700;
+}
+
+.item-price {
+    font-size: 13px;
+    color: rgb(111, 118, 118);
+    font-weight: 400;
+}
+
+.cloth-category {
     text-align: center;
     margin: 20px;
-
 }
 
-@media screen and (max-width:800px)
-{
- .main-container{
-     grid-template-columns: 1fr 1fr;
- }
- .menu-bar{
-     display: none;
- }
- .banner-men img{
-     display:none;
- }
+@media screen and (max-width:800px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu-bar {
+        display: none;
+    }
+    .banner-men img {
+        display: none;
+    }
 }

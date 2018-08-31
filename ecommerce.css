@@ -1,62 +1,79 @@
-.main-container
-{  width: 100%;
-    
-  }
+.main-container {
+    width: 100%;
+}
 
-.banner
-{   display: flex;
+.banner {
+    display: flex;
     text-align: center;
-    margin-top:2%;
-  flex-flow: wrap;
+    margin-top: 2%;
+    flex-flow: wrap;
 }
+
 .banner-men {
-
-    width:100%;
+    width: 100%;
 }
-.banner-ladies{
 
-    width:100%;
+.banner-men img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    object-position: 50% 50%;
+}
+
+.banner-ladies {
+    width: 100%;
+}
+
+.banner-ladies img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    object-position: 50% 50%;
 }
 
 .banner-tshirt-men {
-
-    width:50%;
+    width: 50%;
 }
-.banner-tshirt-ladies {
 
-    width:50%;
-}
-.banner  img{
+.banner-tshirt-men img {
+    object-fit: cover;
+    height: 300px;
     width: 100%;
-    
+    object-position: 50% 50%;
 }
-.cloth-category{
-    margin-top: 3%;
+
+.banner-tshirt-ladies {
+    width: 50%;
 }
-.button{
+
+.banner-tshirt-ladies img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    object-position: 50% 50%;
+}
+
+.cloth-category {
+    margin-top: 30px;
+}
+
+.button {
     border: solid black 2px;
-    width:150px;
-    height:35px;
-    margin: 5%;
+    width: 150px;
+    height: 35px;
+    margin: 30px;
     background: none;
 }
-#button{
-    width:100px;
-   
+
+#button {
+    width: 100px;
 }
 
-
-
-@media screen and (max-width:800px)
-{
- .menu-bar{
-     display: none;
- }
-
-.menu-button img{
-    display: initial;
-}
-  .banner img{
-      height: 150%;
-  }
+@media screen and (max-width:800px) {
+    .menu-bar {
+        display: none;
+    }
+    .menu-button img {
+        display: initial;
+    }
 }
