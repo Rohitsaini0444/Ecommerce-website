@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="details.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="header_footer.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./CSS/details.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./CSS/header_footer.css" media="screen">
 </head>
 
 <body>
@@ -60,8 +60,9 @@
                 </div>
                 <form action="bill.html">
                     <div class="select">
-                        <lable>Size</lable>
-                        <select name="size">
+                        <div class="lable">  <lable>Size</lable></div>
+                    
+                        <select name="size" class="size-selector">
                             <option value="XS">XS</option>
                             <option value="S">S</option>
                             <option value="M">M</option>
@@ -72,8 +73,8 @@
                     </div>
 
                     <div class="select">
-                        <lable>Quantity</lable>
-                        <select name="quantity" value="Quantity">
+                    <div class="lable"> <lable>Quantity</lable> </div>
+                        <select name="quantity"  value="Quantity">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -99,7 +100,7 @@
                     </div>
                     <div>
                         <a href="cart.html">
-                            <input type="submit" class="submit-button"> </a>
+                            <input type="button" class="submit-button" value="ADD TO CART"> </a>
                     </div>
         </div>
         </form>
