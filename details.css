@@ -56,9 +56,6 @@ section {
 .submit-button {
     width: 40%;
     height: 40px;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
     background: none;
     border: solid 2px;
     margin-top: 25px;
